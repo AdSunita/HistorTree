@@ -17,7 +17,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #274029;
 }
 
 ul li {
@@ -33,5 +33,46 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #315C2B;
+}
+
+.img {
+  position: relative;
+  top: 200px;
+  left: 50px;
+
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  top: 200px;
+  left: 50px;
+
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
 }
