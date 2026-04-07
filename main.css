@@ -14,6 +14,7 @@ body{
   font-family: 'Courier New', Courier, monospace;
 }
 
+
 hr.gradient {
   height: 3px;
   width: 90%;
@@ -33,6 +34,12 @@ hr.gradient {
   text-decoration: none;
   padding: 20px;
   color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+.units{
+  padding-top: 20px;
+
 }
 
 .vl{
@@ -49,8 +56,16 @@ hr.gradient {
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 1000px;
-  text-decoration: none;
+  color:rgb(0, 0, 0);
+  left: 850px;
+  top: -100px;
+  font-size: 20px;
+  
+}
+
+.link a:visited{
+  color:rgb(0, 0, 0);
+
 }
 
 body {
@@ -76,6 +91,10 @@ p {
   left: 50px;
 }
 
+.word{
+  display: flex;
+  column-gap: 600px;
+}
 
 ul {
   list-style-type: none;
@@ -90,6 +109,7 @@ ul {
 ul li {
   float: left;
   display: flex;
+  
 }
 
 ul li a {
