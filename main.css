@@ -76,3 +76,9 @@ ul li a:hover {
   background-color: black;
   color: white;
 }
+
+.headerlogo{
+  position: relative;
+  height: 10px;
+  width: auto;
+}
