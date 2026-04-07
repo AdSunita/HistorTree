@@ -7,7 +7,7 @@
 .header h1{
   position: relative;
   right: 400px;
-  padding-right: 100px;
+  padding-right: 20px;
 }
 
 body{
@@ -28,14 +28,30 @@ hr.gradient {
   );
 }
 
+.units a:link{
+  display: flex;
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
 .vl{
   display: flex;
   flex-direction: column;
   position: relative;
+  align-items: center;
+  color: rgb(1, 0, 0);
   top: 50px;
   gap: 10px;
 }
 
+.link a:link{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 1000px;
+  text-decoration: none;
+}
 
 body {
   background-color: rgb(255, 255, 255);
@@ -54,7 +70,7 @@ p {
 }
 
 #logo{
-  width: 30%;
+  width: 20%;
   height: auto;
   top: 20px;
   left: 50px;
@@ -67,10 +83,13 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #274029;
+  padding-left: 60px;
+  padding-right: 90px;
 }
 
 ul li {
   float: left;
+  display: flex;
 }
 
 ul li a {
@@ -111,8 +130,8 @@ ul li a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #60712F;
+  color: rgb(255, 251, 251);
   font-size: 16px;
   font-family: 'Courier New', Courier, monospace;
   padding: 16px 30px;
@@ -123,7 +142,7 @@ ul li a:hover {
 }
 
 .container .btn:hover {
-  background-color: black;
+  background-color: #315C2B;
   color: white;
 }
 
